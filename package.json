@@ -9,6 +9,7 @@
     "build:lib": "ng build coben-lib-finance",
     "build:publish": "npm publish dist/coben-lib-finance/",
     "build:lib-watch": "ng build coben-lib-finance --watch",
+    "publish:lib": "npm run build:ver && npm run build:lib && npm run build:publish",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
