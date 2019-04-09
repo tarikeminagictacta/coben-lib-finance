@@ -7,7 +7,7 @@
     "build": "ng build",
     "build:ver": "cd projects/coben-lib-finance && npm run build:ver && cd ../..",
     "build:lib": "ng build coben-lib-finance",
-    "build:publish": "npm publish dist/coben-lib-finance/",
+    "build:publish": "git push --follow-tags origin master && npm publish dist/coben-lib-finance/",
     "build:lib-watch": "ng build coben-lib-finance --watch",
     "publish:lib": "npm run build:ver && npm run build:lib && npm run build:publish",
     "test": "ng test",
