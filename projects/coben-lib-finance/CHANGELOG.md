@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.3](/compare/v0.1.2...v0.1.3) (2019-04-09)
+
+
+### Bug Fixes
+
+* **module:** added routing module due to router outlet 42b5b7f
+* **module:** removed routing from module a96297b
+
+
+
 ## [0.1.2](/compare/v0.1.1...v0.1.2) (2019-04-09)
 
 
