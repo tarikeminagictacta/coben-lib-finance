@@ -10,7 +10,7 @@ import { DetailsComponent } from './details/details.component';
   imports: [
     CobenLibCommonModule,
     RouterModule.forChild([
-      { path: 'finance', component: CobenLibFinanceComponent, children: [
+      { path: '', component: CobenLibFinanceComponent, children: [
         { path: 'details', component: DetailsComponent }
       ] }
     ])
