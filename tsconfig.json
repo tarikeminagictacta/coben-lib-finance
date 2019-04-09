@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@coben-lib/finance": [
+        "projects/coben-lib-finance/src"
+      ],
+      "@coben-lib/finance/*": [
+        "projects/coben-lib-finance/src/*"
+      ]
+    }
   }
 }
