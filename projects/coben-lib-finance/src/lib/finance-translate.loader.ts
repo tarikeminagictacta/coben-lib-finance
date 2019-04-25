@@ -11,7 +11,6 @@ export const TRANSLATIONS: any = {
 
 export class FinanceTranslateLoader implements TranslateLoader {
   getTranslation(lang: string): Observable<any> {
-    console.log(lang);
     return of(TRANSLATIONS[lang]);
   }
 }
