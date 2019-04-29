@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { TRANSLATIONS } from './finance-translations';
 
 @Component({
   selector: 'cblibfs-coben-lib-finance',
@@ -8,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class CobenLibFinanceComponent implements OnInit {
   constructor(private translate: TranslateService) {
-    this.translate.setDefaultLang('en');
+    translate.setTranslation('en', TRANSLATIONS.en, true);
   }
 
   ngOnInit() {
