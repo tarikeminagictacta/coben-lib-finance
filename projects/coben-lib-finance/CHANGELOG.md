@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.3.0](https://github.com/tarikeminagictacta/coben-lib-finance/compare/v0.2.2...v0.3.0) (2019-05-22)
+
+
+### Features
+
+* **translations:** try adding translations on module level ([e1bbf8a](https://github.com/tarikeminagictacta/coben-lib-finance/commit/e1bbf8a))
+
+
+
 ## [0.2.2](https://github.com/tarikeminagictacta/coben-lib-finance/compare/v0.2.1...v0.2.2) (2019-05-22)
 
 
